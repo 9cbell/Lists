@@ -1,7 +1,7 @@
 //Task 1
 function largest(list){
     let big# = list[0];
-    for(a=0, a<a.length, a++){
+    for(a=0; a<a.length; a++){
         if(big# < list[a]){
             big# = list[a];
         }
@@ -12,15 +12,24 @@ function largest(list){
 //Task 2
 function reverse(list){
     let backwards = [];
-    for(a=0, a<=list.length, a++){
-        //.push list
+    for(a=0; a<=list.length; a++){
     }
+    oddlist.push(backwards);
 return backwards;
 }
 //Task 3
 function cotains(list,e){
+    let element = [];
+    for(e=0; e<=list.length; e++){
+        if(list[e] == e){
 
+        }
+    }
+    if true(return e){
+        else(return "this number is not found")
+    }
 }
+
 
 //Task 4
 function oddElements(list){
@@ -29,7 +38,11 @@ function oddElements(list){
 
 //Task 5
 function total(list){
-
+    let running = [];
+    for(let a = 0; a <= list.length; a++){
+        running = running + list[a];
+    }
+return running;
 }
 
 //Task 6
