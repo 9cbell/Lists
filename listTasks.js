@@ -19,22 +19,44 @@ let array = [];
 
 //Task 3
 function cotains(list,e){
+    for(let c=0; c<=list.length; c++){
+        if(list[c]==e){
 
+        }
+    }
+    if true(return e){
+        else(return "this number isnt found")
+    }
 }
 
 //Task 4
 function oddElements(list){
+let array = []
+for(let a=0; a<list.length; a=a+2){
+    odd.push(list[a]);
+}
+return array;
 }
 
 
 //Task 5
 function total(list){
-
-
+let running = [];
+for(let a=0; a<=list.length; a++){
+    running=running+list[a];
+}
+return running;
 }
 //Task 6
 function isPalindrome(list){
-
+for(let a=0; a<list.length; a++){
+}
+let race = list.reverse(list);
+for(let b=0; b<list.length; b++){
+    list[a]==list[b];
+}
+if true('Polindrome Affirmative');
+else('Polindrome Negative');
 }
 
 //Task 7
@@ -44,7 +66,14 @@ function recursiveTotal(list){
 }
 //Task 8
 function concatenate(listA, listB){
-
+let listX=[];
+for(let a=0; a<listA.length; a++){
+    listX.push(listA);
+}
+let listY=[];
+for(let b=0; b<listB.length; a++){
+    listY.push(listB);
+}
 }
 
 //Task 9
