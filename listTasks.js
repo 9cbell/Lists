@@ -1,50 +1,37 @@
-//Task 1
+
 function largest(list){
-    let big# = list[0];
-    for(a=0; a<a.length; a++){
-        if(big# < list[a]){
-            big# = list[a];
+let largest = list[0];
+    for(let a = 0; a < list.length; a++){
+        if(list[a] > largest){
+            largest = list[a];
         }
     }
-    return big#
+    return largest;
 }
 
-//Task 2
 function reverse(list){
-    let backwards = [];
-    for(a=0; a<=list.length; a++){
+let array = [];
+    for(let a = 0; a < list.length; a++){
+        array.push(list[a]);
     }
-    oddlist.push(backwards);
-return backwards;
+    return array;
 }
+
 //Task 3
 function cotains(list,e){
-    let element = [];
-    for(e=0; e<=list.length; e++){
-        if(list[e] == e){
 
-        }
-    }
-    if true(return e){
-        else(return "this number is not found")
-    }
 }
-
 
 //Task 4
 function oddElements(list){
-
 }
+
 
 //Task 5
 function total(list){
-    let running = [];
-    for(let a = 0; a <= list.length; a++){
-        running = running + list[a];
-    }
-return running;
-}
 
+
+}
 //Task 6
 function isPalindrome(list){
 
@@ -80,3 +67,6 @@ function rotate(list,k){
 function fibonacci(){
 
 }
+
+console.log(largest([3,2,4,5,6,7,8,9,10,1]));
+console.log(reverse([3,2,4,5,6,7,8,9,10,1]));
