@@ -62,7 +62,14 @@ else('Polindrome Negative');
 //Task 7
 //Do second to last
 function recursiveTotal(list){
-
+let recursiveTotal = function(list){
+    if(list.length == 1){
+        return list[0];
+    }
+else(){
+    return total(list);
+}
+}
 }
 //Task 8
 function concatenate(listA, listB){
@@ -74,6 +81,7 @@ let listY=[];
 for(let b=0; b<listB.length; a++){
     listY.push(listB);
 }
+return reverse(listC)
 }
 
 //Task 9
